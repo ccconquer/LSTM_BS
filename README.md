@@ -1,2 +1,2 @@
 # LSTM_BP
-考虑盲区的基于时空注意力机制LSTM的无人车意图识别/轨迹规划算法
+Occlusion-aware STA-LSTM-based explainable intention prediction and safe planning
