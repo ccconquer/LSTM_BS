@@ -1,0 +1,95 @@
+{
+  "lat_origin": 50.76862961985595,
+  "lon_origin": 6.101500257274488,
+  "goals": [[49.4, -22.9],
+            [57.9, -30.2],
+            [45.2, -35.0],
+            [38.6, -30.6]],
+  "goal_types": [["enter-left", "exit-right", "cross-road"],
+                 ["enter-left", "exit-right", "cross-road"],
+                 ["enter-left", "exit-right", "cross-road"],
+                 ["enter-left", "exit-right", "cross-road"]
+  ],
+  "goals_priors":[0.16918189038919776,
+    0.5671167593328038,
+    0.020651310563939634,
+    0.24305003971405875],
+  "goal_threshold": 2.0,
+  "opendrive_file": "scenarios/maps/frankenburg.xodr",
+  "data_format": "ind",
+  "data_root": "scenarios/data/ind/data",
+  "background_image": "18_background.png",
+  "agent_types": ["car", "truck_bus"],
+  "background_px_to_meter": 0.09775633100694,
+  "scale_down_factor": 12,
+  "target_switch_length": 20,
+  "check_lanes": false,
+  "check_oncoming": true,
+  "episodes": [
+    {"recording_id":  "18"},
+    {"recording_id":  "19"},
+    {"recording_id":  "20"},
+    {"recording_id":  "21"},
+    {"recording_id":  "22"},
+    {"recording_id":  "23"},
+    {"recording_id":  "24"},
+    {"recording_id":  "26"},
+    {"recording_id":  "27"},
+    {"recording_id":  "28"},
+    {"recording_id":  "29"}
+  ],
+  "dataset_split": {
+    "train": [
+      10,
+      1,
+      9,
+      8,
+      0,
+      2,
+      6,
+      4,
+      3
+    ],
+    "valid": [
+      7
+    ],
+    "test": [
+      5
+    ]
+  },
+  "reachable_pairs": [
+    [[38.4, -14.0], [77.8, -26.4]],
+    [[38.4, -14.0], [47.0, -39.8]],
+    [[38.4, -14.0], [17.5, -35.1]],
+
+    [[77.6, -22.4], [41.8, -13.2]],
+    [[77.6, -22.4], [47.0, -39.8]],
+    [[77.6, -22.4], [17.5, -35.1]],
+
+    [[50.6, -40.8], [41.8, -13.2]],
+    [[50.6, -40.8], [77.8, -26.4]],
+    [[50.6, -40.8], [17.5, -35.1]],
+
+    [[18.9, -37.8], [41.8, -13.2]],
+    [[18.9, -37.8], [77.8, -26.4]],
+    [[18.9, -37.8], [47.0, -39.8]]
+  ],
+  "cost_factors":{
+    "time": 0.0,
+    "velocity": 0.0,
+    "acceleration": 0.0, 
+    "jerk": 0.0,
+    "heading": 1000, 
+    "angular_velocity": 0.0,
+    "angular_acceleration": 0.0, 
+    "curvature": 0.0, 
+    "safety": 0.0
+  },
+  "buildings":[
+    [[5.3, -19.49], [28.66, -14.52], [30.65, -16.77], [30.87, -18.44], [29.07, -25.34], [27.86, -26.15], [7.55, -31.52]],
+    [[48.11, -9.61], [53.34, -14.51], [56.24, -15.42], [93.24, -9.45], [90.92, -0.66]],
+    [[11.78, -46.61], [38.91, -38.90], [41.06, -39.73], [48.69, -56.9], [16.34, -63.7]]
+  ]
+}
+
+
