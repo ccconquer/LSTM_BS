@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ogrit.egg-info/PKG-INFO
+ogrit.egg-info/SOURCES.txt
+ogrit.egg-info/dependency_links.txt
+ogrit.egg-info/requires.txt
+ogrit.egg-info/top_level.txt
+test/test_feature_extraction.py
+test/test_goal_generator.py
+test/test_missing_feature_extraction.py
